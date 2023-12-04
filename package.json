@@ -1,0 +1,46 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "Solutions of advent of code",
+  "keywords": [
+    "advent-of-code",
+    "advent-of-code-2023",
+    "javsacript"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier.json --loglevel warn --write .",
+    "lint": "eslint --ext .ts ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i5possible/advent-of-code.git"
+  },
+  "author": "alfred liang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/i5possible/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/i5possible/advent-of-code#readme",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.2",
+    "@types/node": "^18.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^3.1.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "winston": "^3.11.0"
+  }
+}

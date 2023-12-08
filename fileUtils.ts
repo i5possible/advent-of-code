@@ -16,9 +16,9 @@ export const readLines = (fileName: string, splitter = /\r?\n/): string[] => {
   }
 };
 
-export const readData = (fileName: string) => {
+export const readData = (fileName: string): string => {
   try {
-    const absolutePath = path.resolve(__dirname, fileName);
+    const absolutePath = path.resolve("", fileName);
     return readFileSync(absolutePath, "utf-8");
   } catch (err) {
     console.error(err);
